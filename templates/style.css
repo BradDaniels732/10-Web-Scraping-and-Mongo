@@ -1,0 +1,52 @@
+.no_border {
+  box-shadow: none
+}
+
+.box {
+  min-height: 50px;
+  padding: 5px;
+  margin: 5px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 800;
+  font-size: 25px;
+  text-align: center;
+  color: #fff;
+}
+
+.action_box {
+  min-height: 50px;
+  font-size: 18px;
+  text-align: left;
+  vertical-align: middle;
+  color: black;
+}
+
+.MyFancyText {
+  color: navy;
+  font-family: 'Times New Roman', Times, serif; 
+}
+
+.MyFancyTextNav {
+  font-family: 'Times New Roman', Times, serif; 
+  font-size: 30px;
+}
+
+.purple {
+  background: rebeccapurple;
+}
+
+.red {
+  background: indianred;
+}
+
+.teal {
+  background: teal;
+}
+
+.center_text {
+  margin-top: 50%;
+}
+
+.bg-white{
+  background:#ffffff;
+}
