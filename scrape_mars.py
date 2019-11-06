@@ -127,8 +127,8 @@ def scrape_fourth_planet():
     # Use Pandas "read_html" to find all the tables on the webpage
     tables = pd.read_html(url)
 
-    # We are only interested in the second table
-    mars_table = tables[1]
+    # We are only interested in the third table
+    mars_table = tables[2]
 
     # Add column headings, set the index
     mars_table.columns = ["Description","Value"]
